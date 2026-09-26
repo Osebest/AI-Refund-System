@@ -1,0 +1,92 @@
+[
+  {
+    "id": "cus_001",
+    "name": "Avery Stone",
+    "email": "customer1@example.test",
+    "tier": "gold"
+  },
+  {
+    "id": "cus_002",
+    "name": "Mina Patel",
+    "email": "customer2@example.test",
+    "tier": "standard"
+  },
+  {
+    "id": "cus_003",
+    "name": "Jordan Lee",
+    "email": "customer3@example.test",
+    "tier": "standard"
+  },
+  {
+    "id": "cus_004",
+    "name": "Sam Rivera",
+    "email": "customer4@example.test",
+    "tier": "standard"
+  },
+  {
+    "id": "cus_005",
+    "name": "Taylor Brooks",
+    "email": "customer5@example.test",
+    "tier": "gold"
+  },
+  {
+    "id": "cus_006",
+    "name": "Casey Nguyen",
+    "email": "customer6@example.test",
+    "tier": "standard"
+  },
+  {
+    "id": "cus_007",
+    "name": "Morgan Ellis",
+    "email": "customer7@example.test",
+    "tier": "standard"
+  },
+  {
+    "id": "cus_008",
+    "name": "Riley Chen",
+    "email": "customer8@example.test",
+    "tier": "standard"
+  },
+  {
+    "id": "cus_009",
+    "name": "Jamie Hart",
+    "email": "customer9@example.test",
+    "tier": "gold"
+  },
+  {
+    "id": "cus_010",
+    "name": "Drew Foster",
+    "email": "customer10@example.test",
+    "tier": "standard"
+  },
+  {
+    "id": "cus_011",
+    "name": "Alex Kim",
+    "email": "customer11@example.test",
+    "tier": "standard"
+  },
+  {
+    "id": "cus_012",
+    "name": "Quinn Parker",
+    "email": "customer12@example.test",
+    "tier": "standard"
+  },
+  {
+    "id": "cus_013",
+    "name": "Emery Davis",
+    "email": "customer13@example.test",
+    "tier": "gold"
+  },
+  {
+    "id": "cus_014",
+    "name": "Cameron Wells",
+    "email": "customer14@example.test",
+    "tier": "standard"
+  },
+  {
+    "id": "cus_015",
+    "name": "Robin Shah",
+    "email": "customer15@example.test",
+    "tier": "standard"
+  }
+]

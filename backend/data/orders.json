@@ -1,0 +1,272 @@
+[
+  {
+    "id": "ord_001",
+    "customerId": "cus_001",
+    "item": "Wireless Headphones",
+    "price": 39.99,
+    "purchaseDate": "2026-09-25",
+    "finalSale": true,
+    "condition": "damaged"
+  },
+  {
+    "id": "ord_004",
+    "customerId": "cus_002",
+    "item": "Desk Lamp",
+    "price": 89.5,
+    "purchaseDate": "2026-09-18",
+    "finalSale": false,
+    "condition": "none"
+  },
+  {
+    "id": "ord_005",
+    "customerId": "cus_002",
+    "item": "Travel Backpack",
+    "price": 149,
+    "purchaseDate": "2026-09-07",
+    "finalSale": false,
+    "condition": "none"
+  },
+  {
+    "id": "ord_007",
+    "customerId": "cus_003",
+    "item": "Travel Backpack",
+    "price": 149,
+    "purchaseDate": "2026-09-11",
+    "finalSale": false,
+    "condition": "none"
+  },
+  {
+    "id": "ord_008",
+    "customerId": "cus_003",
+    "item": "Mechanical Keyboard",
+    "price": 249,
+    "purchaseDate": "2026-08-31",
+    "finalSale": false,
+    "condition": "none"
+  },
+  {
+    "id": "ord_009",
+    "customerId": "cus_003",
+    "item": "Ceramic Mug",
+    "price": 599,
+    "purchaseDate": "2026-08-20",
+    "finalSale": false,
+    "condition": "none"
+  },
+  {
+    "id": "ord_010",
+    "customerId": "cus_004",
+    "item": "Mechanical Keyboard",
+    "price": 249,
+    "purchaseDate": "2026-09-04",
+    "finalSale": false,
+    "condition": "none"
+  },
+  {
+    "id": "ord_013",
+    "customerId": "cus_005",
+    "item": "Ceramic Mug",
+    "price": 599,
+    "purchaseDate": "2026-08-28",
+    "finalSale": false,
+    "condition": "none"
+  },
+  {
+    "id": "ord_014",
+    "customerId": "cus_005",
+    "item": "Running Shoes",
+    "price": 39.99,
+    "purchaseDate": "2026-08-17",
+    "finalSale": false,
+    "condition": "none"
+  },
+  {
+    "id": "ord_016",
+    "customerId": "cus_006",
+    "item": "Running Shoes",
+    "price": 39.99,
+    "purchaseDate": "2026-08-21",
+    "finalSale": false,
+    "condition": "none"
+  },
+  {
+    "id": "ord_017",
+    "customerId": "cus_006",
+    "item": "USB-C Dock",
+    "price": 89.5,
+    "purchaseDate": "2026-09-24",
+    "finalSale": false,
+    "condition": "none"
+  },
+  {
+    "id": "ord_018",
+    "customerId": "cus_006",
+    "item": "Smart Watch",
+    "price": 149,
+    "purchaseDate": "2026-09-13",
+    "finalSale": false,
+    "condition": "none"
+  },
+  {
+    "id": "ord_019",
+    "customerId": "cus_007",
+    "item": "USB-C Dock",
+    "price": 89.5,
+    "purchaseDate": "2026-08-14",
+    "finalSale": false,
+    "condition": "damaged"
+  },
+  {
+    "id": "ord_022",
+    "customerId": "cus_008",
+    "item": "Smart Watch",
+    "price": 149,
+    "purchaseDate": "2026-09-21",
+    "finalSale": true,
+    "condition": "none"
+  },
+  {
+    "id": "ord_023",
+    "customerId": "cus_008",
+    "item": "Cotton Hoodie",
+    "price": 249,
+    "purchaseDate": "2026-09-10",
+    "finalSale": false,
+    "condition": "none"
+  },
+  {
+    "id": "ord_025",
+    "customerId": "cus_009",
+    "item": "Cotton Hoodie",
+    "price": 249,
+    "purchaseDate": "2026-09-14",
+    "finalSale": false,
+    "condition": "none"
+  },
+  {
+    "id": "ord_026",
+    "customerId": "cus_009",
+    "item": "Noise Machine",
+    "price": 599,
+    "purchaseDate": "2026-09-03",
+    "finalSale": false,
+    "condition": "wrong-item"
+  },
+  {
+    "id": "ord_027",
+    "customerId": "cus_009",
+    "item": "Monitor Stand",
+    "price": 39.99,
+    "purchaseDate": "2026-08-23",
+    "finalSale": false,
+    "condition": "none"
+  },
+  {
+    "id": "ord_028",
+    "customerId": "cus_010",
+    "item": "Noise Machine",
+    "price": 599,
+    "purchaseDate": "2026-09-07",
+    "finalSale": false,
+    "condition": "none"
+  },
+  {
+    "id": "ord_031",
+    "customerId": "cus_011",
+    "item": "Monitor Stand",
+    "price": 39.99,
+    "purchaseDate": "2026-08-31",
+    "finalSale": false,
+    "condition": "none"
+  },
+  {
+    "id": "ord_032",
+    "customerId": "cus_011",
+    "item": "Camera Strap",
+    "price": 89.5,
+    "purchaseDate": "2026-08-20",
+    "finalSale": false,
+    "condition": "none"
+  },
+  {
+    "id": "ord_034",
+    "customerId": "cus_012",
+    "item": "Camera Strap",
+    "price": 89.5,
+    "purchaseDate": "2026-08-24",
+    "finalSale": false,
+    "condition": "none"
+  },
+  {
+    "id": "ord_035",
+    "customerId": "cus_012",
+    "item": "Water Bottle",
+    "price": 149,
+    "purchaseDate": "2026-08-13",
+    "finalSale": false,
+    "condition": "none"
+  },
+  {
+    "id": "ord_036",
+    "customerId": "cus_012",
+    "item": "Notebook Set",
+    "price": 249,
+    "purchaseDate": "2026-09-16",
+    "finalSale": false,
+    "condition": "none"
+  },
+  {
+    "id": "ord_037",
+    "customerId": "cus_013",
+    "item": "Water Bottle",
+    "price": 149,
+    "purchaseDate": "2026-08-17",
+    "finalSale": false,
+    "condition": "damaged"
+  },
+  {
+    "id": "ord_040",
+    "customerId": "cus_014",
+    "item": "Notebook Set",
+    "price": 249,
+    "purchaseDate": "2026-09-24",
+    "finalSale": false,
+    "condition": "none"
+  },
+  {
+    "id": "ord_041",
+    "customerId": "cus_014",
+    "item": "Portable Charger",
+    "price": 599,
+    "purchaseDate": "2026-09-13",
+    "finalSale": false,
+    "condition": "none"
+  },
+  {
+    "id": "ord_043",
+    "customerId": "cus_015",
+    "item": "Portable Charger",
+    "price": 599,
+    "purchaseDate": "2026-09-17",
+    "finalSale": true,
+    "condition": "none"
+  },
+  {
+    "id": "ord_044",
+    "customerId": "cus_015",
+    "item": "Wireless Headphones",
+    "price": 39.99,
+    "purchaseDate": "2026-09-06",
+    "finalSale": false,
+    "condition": "none"
+  },
+  {
+    "id": "ord_045",
+    "customerId": "cus_015",
+    "item": "Desk Lamp",
+    "price": 89.5,
+    "purchaseDate": "2026-08-26",
+    "finalSale": false,
+    "condition": "none"
+  }
+]

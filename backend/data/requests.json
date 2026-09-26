@@ -1,0 +1,240 @@
+[
+  {
+    "id": "req_1790335941846",
+    "timestamp": "2026-09-25T11:32:21.846Z",
+    "customerId": "cus_001",
+    "orderId": "ord_001",
+    "message": "My item arrived damaged and I would like a refund.",
+    "ruleFired": "Final-sale items are not eligible for refunds.",
+    "ai": {
+      "category": "damaged",
+      "confidence": 0.72,
+      "suspicious": false,
+      "customer_message": "Thanks for reaching out about your Wireless Headphones. We reviewed the request against the order details.",
+      "reasoning": "Deterministic mock classification used because OPENAI_API_KEY is not configured."
+    },
+    "finalStatus": "denied",
+    "customerMessage": "This request was not approved: Final-sale items are not eligible for refunds."
+  },
+  {
+    "id": "req_1790338195697",
+    "timestamp": "2026-09-25T12:09:55.698Z",
+    "customerId": "cus_001",
+    "orderId": "ord_001",
+    "message": "My item arrived damaged and I would like a refund.",
+    "ruleFired": "Final-sale items are not eligible for refunds.",
+    "ai": {
+      "category": "damaged",
+      "confidence": 0.72,
+      "suspicious": false,
+      "customer_message": "Thanks for reaching out about your Wireless Headphones. We reviewed the request against the order details.",
+      "reasoning": "Deterministic mock classification used because OPENAI_API_KEY is not configured."
+    },
+    "finalStatus": "denied",
+    "customerMessage": "This request was not approved: Final-sale items are not eligible for refunds."
+  },
+  {
+    "id": "req_1790373111214",
+    "timestamp": "2026-09-25T21:51:51.215Z",
+    "customerId": "cus_001",
+    "orderId": "ord_001",
+    "message": "ksdfnkndf",
+    "ruleFired": "Final-sale items are not eligible for refunds.",
+    "ai": {
+      "category": "other",
+      "confidence": 0.72,
+      "suspicious": false,
+      "customer_message": "Thanks for reaching out about your Wireless Headphones. We reviewed the request against the order details.",
+      "reasoning": "Deterministic mock classification used because OPENAI_API_KEY is not configured."
+    },
+    "finalStatus": "denied",
+    "customerMessage": "This request was not approved: Final-sale items are not eligible for refunds."
+  },
+  {
+    "id": "req_1790373221897",
+    "timestamp": "2026-09-25T21:53:41.897Z",
+    "customerId": "cus_002",
+    "orderId": "ord_004",
+    "message": "ksdfnkndf",
+    "ruleFired": "Order is within the refund window and passes policy checks.",
+    "ai": {
+      "category": "other",
+      "confidence": 0.72,
+      "suspicious": false,
+      "customer_message": "Thanks for reaching out about your Desk Lamp. We reviewed the request against the order details.",
+      "reasoning": "Deterministic mock classification used because OPENAI_API_KEY is not configured."
+    },
+    "finalStatus": "approved",
+    "customerMessage": "Thanks for reaching out about your Desk Lamp. We reviewed the request against the order details."
+  },
+  {
+    "id": "req_1790373268493",
+    "timestamp": "2026-09-25T21:54:28.494Z",
+    "customerId": "cus_002",
+    "orderId": "ord_005",
+    "message": "ksdfnknd sejs esdf",
+    "ruleFired": "Order is within the refund window and passes policy checks.",
+    "ai": {
+      "category": "other",
+      "confidence": 0.72,
+      "suspicious": false,
+      "customer_message": "Thanks for reaching out about your Travel Backpack. We reviewed the request against the order details.",
+      "reasoning": "Deterministic mock classification used because OPENAI_API_KEY is not configured."
+    },
+    "finalStatus": "approved",
+    "customerMessage": "Thanks for reaching out about your Travel Backpack. We reviewed the request against the order details."
+  },
+  {
+    "id": "req_1790373362989",
+    "timestamp": "2026-09-25T21:56:02.989Z",
+    "customerId": "cus_001",
+    "orderId": "ord_001",
+    "message": "My item arrived damaged and I would like a refund.",
+    "ruleFired": "Final-sale items are not eligible for refunds.",
+    "ai": {
+      "category": "damaged",
+      "confidence": 0.72,
+      "suspicious": false,
+      "customer_message": "Thanks for reaching out about your Wireless Headphones. We reviewed the request against the order details.",
+      "reasoning": "Deterministic mock classification used because OPENAI_API_KEY is not configured."
+    },
+    "finalStatus": "denied",
+    "customerMessage": "This request was not approved: Final-sale items are not eligible for refunds."
+  },
+  {
+    "id": "req_1790375542670",
+    "timestamp": "2026-09-25T22:32:22.670Z",
+    "customerId": "cus_001",
+    "orderId": "ord_001",
+    "message": "dfddg",
+    "ruleFired": "Final-sale items are not eligible for refunds.",
+    "ai": {
+      "category": "other",
+      "confidence": 0.72,
+      "suspicious": false,
+      "customer_message": "Thanks for reaching out about your Wireless Headphones. We reviewed the request against the order details.",
+      "reasoning": "Deterministic mock classification used because OPENAI_API_KEY is not configured."
+    },
+    "finalStatus": "denied",
+    "customerMessage": "This request was not approved: Final-sale items are not eligible for refunds."
+  },
+  {
+    "id": "req_1790375552958",
+    "timestamp": "2026-09-25T22:32:32.958Z",
+    "customerId": "cus_002",
+    "orderId": "ord_004",
+    "message": "dfddg",
+    "ruleFired": "The request will be escalated for review due to conflicting or suspicious claims.",
+    "ai": {
+      "category": "other",
+      "confidence": 0.72,
+      "suspicious": false,
+      "customer_message": "Thanks for reaching out about your Desk Lamp. We reviewed the request against the order details.",
+      "reasoning": "Deterministic mock classification used because OPENAI_API_KEY is not configured."
+    },
+    "finalStatus": "escalated",
+    "customerMessage": "This request has been escalated for review: The request will be escalated for review due to conflicting or suspicious claims."
+  },
+  {
+    "id": "req_1790376072861",
+    "timestamp": "2026-09-25T22:41:12.861Z",
+    "customerId": "cus_001",
+    "orderId": "ord_001",
+    "message": "My item arrived damaged and I would like a refund.",
+    "ruleFired": "Final-sale items are not eligible for refunds.",
+    "ai": {
+      "category": "damaged",
+      "confidence": 0.72,
+      "suspicious": false,
+      "customer_message": "Thanks for reaching out about your Wireless Headphones. We reviewed the request against the order details.",
+      "reasoning": "Deterministic mock classification used because OPENAI_API_KEY is not configured."
+    },
+    "finalStatus": "denied",
+    "customerMessage": "This request was not approved: Final-sale items are not eligible for refunds."
+  },
+  {
+    "id": "req_1790376088395",
+    "timestamp": "2026-09-25T22:41:28.395Z",
+    "customerId": "cus_001",
+    "orderId": "ord_001",
+    "message": "fjnfjndf",
+    "ruleFired": "Final-sale items are not eligible for refunds.",
+    "ai": {
+      "category": "other",
+      "confidence": 0.72,
+      "suspicious": false,
+      "customer_message": "Thanks for reaching out about your Wireless Headphones. We reviewed the request against the order details.",
+      "reasoning": "Deterministic mock classification used because OPENAI_API_KEY is not configured."
+    },
+    "finalStatus": "denied",
+    "customerMessage": "This request was not approved: Final-sale items are not eligible for refunds."
+  },
+  {
+    "id": "req_1790376421303",
+    "timestamp": "2026-09-25T22:47:01.303Z",
+    "customerId": "cus_001",
+    "orderId": "ord_001",
+    "message": "My item arrived damaged and I would like a refund.",
+    "ruleFired": "Final-sale items are not eligible for refunds.",
+    "ai": {
+      "category": "damaged",
+      "confidence": 0.72,
+      "suspicious": false,
+      "customer_message": "Thanks for reaching out about your Wireless Headphones. We reviewed the request against the order details.",
+      "reasoning": "Deterministic mock classification used because OPENAI_API_KEY is not configured."
+    },
+    "finalStatus": "denied",
+    "customerMessage": "This request was not approved: Final-sale items are not eligible for refunds."
+  },
+  {
+    "id": "req_1790456688661",
+    "timestamp": "2026-09-26T21:04:48.661Z",
+    "customerId": "cus_002",
+    "orderId": "ord_004",
+    "message": "My item arrived damaged and I would like a refund.",
+    "ruleFired": "The damage claim conflicts with the order condition.",
+    "ai": {
+      "category": "damaged",
+      "confidence": 0.72,
+      "suspicious": false,
+      "customer_message": "Thanks for reaching out about your Desk Lamp. We reviewed the request against the order details.",
+      "reasoning": "Deterministic mock classification used because OPENAI_API_KEY is not configured."
+    },
+    "finalStatus": "escalated",
+    "customerMessage": "This request has been escalated for review: The damage claim conflicts with the order condition."
+  },
+  {
+    "id": "req_1790456725381",
+    "timestamp": "2026-09-26T21:05:25.381Z",
+    "customerId": "cus_002",
+    "orderId": "ord_004",
+    "message": "My item arrived damaged and I would like a refund.",
+    "ruleFired": "The damage claim conflicts with the order condition.",
+    "ai": {
+      "category": "damaged",
+      "confidence": 0.72,
+      "suspicious": false,
+      "customer_message": "Thanks for reaching out about your Desk Lamp. We reviewed the request against the order details.",
+      "reasoning": "Deterministic mock classification used because OPENAI_API_KEY is not configured."
+    },
+    "finalStatus": "escalated",
+    "customerMessage": "This request has been escalated for review: The damage claim conflicts with the order condition."
+  },
+  {
+    "id": "req_1790456738510",
+    "timestamp": "2026-09-26T21:05:38.510Z",
+    "customerId": "cus_003",
+    "orderId": "ord_009",
+    "message": "jsdbfjbdf",
+    "ruleFired": "Orders older than 30 days cannot be refunded.",
+    "ai": {
+      "category": "other",
+      "confidence": 0.72,
+      "suspicious": false,
+      "customer_message": "Thanks for reaching out about your Ceramic Mug. We reviewed the request against the order details.",
+      "reasoning": "Deterministic mock classification used because OPENAI_API_KEY is not configured."
+    },
+    "finalStatus": "denied",
+    "customerMessage": "This request was not approved: Orders older than 30 days cannot be refunded."
+  }
+]
