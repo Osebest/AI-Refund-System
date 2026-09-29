@@ -1,4 +1,6 @@
-import "dotenv/config";
+import { existsSync } from "node:fs";
+import path from "node:path";
+import dotenv from "dotenv";
 import express from "express";
 import cors from "cors";
 import { seedData } from "./data/seed";
@@ -6,6 +8,12 @@ import { readJson } from "./data/store";
 import { healthRouter } from "./routes/health";
 import { refundsRouter } from "./routes/refunds";
 import { Customer, Order } from "./types";
+
+const backendEnvPath = path.resolve(__dirname, "../.env");
+const rootEnvPath = path.resolve(__dirname, "../../.env");
+dotenv.config({
+  path: existsSync(backendEnvPath) ? backendEnvPath : rootEnvPath,
+});
 
 const app = express();
 const port = Number(process.env.BACKEND_PORT || 4000);

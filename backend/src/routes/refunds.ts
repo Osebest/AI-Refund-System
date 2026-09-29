@@ -2,7 +2,7 @@ import { Router } from "express";
 import { appendJson, readJson } from "../data/store";
 import { classifyRefund } from "../ai/classify";
 import { evaluateRefund } from "../policy/rules";
-import { AiClassification, Customer, Order, RefundRequest } from "../types";
+import { AiClassification, Customer, Order, RefundRequest, RefundStatus } from "../types";
 
 export const refundsRouter = Router();
 refundsRouter.get("/", async (_req, res) =>

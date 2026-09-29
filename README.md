@@ -41,6 +41,7 @@ The AI system prompt explicitly treats customer text as data and keeps it separa
 ## Assumptions and trade-offs
 
 - This is an assessment starter, so there is no authentication or authorization. The `/admin` page is intentionally public and must be protected before production use.
+- For the AI layer, you need to provide an OpenAI API key in `.env` to get live classification. Without a key, the backend uses a deterministic mock classifier, so the full workflow still runs.
 - JSON storage is simple and swappable through `backend/src/data/store.ts`, but it is not suitable for concurrent multi-instance production workloads.
 - Seed data is synthetic and generated on first backend boot. Existing data files are preserved.
 - CORS is permissive for local development. Production deployment should restrict origins and secrets.

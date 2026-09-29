@@ -15,7 +15,7 @@
     "price": 89.5,
     "purchaseDate": "2026-09-18",
     "finalSale": false,
-    "condition": "none"
+    "condition": "damaged"
   },
   {
     "id": "ord_005",
@@ -40,7 +40,7 @@
     "customerId": "cus_003",
     "item": "Mechanical Keyboard",
     "price": 249,
-    "purchaseDate": "2026-08-31",
+    "purchaseDate": "2026-09-31",
     "finalSale": false,
     "condition": "none"
   },
@@ -49,7 +49,7 @@
     "customerId": "cus_003",
     "item": "Ceramic Mug",
     "price": 599,
-    "purchaseDate": "2026-08-20",
+    "purchaseDate": "2026-09-20",
     "finalSale": false,
     "condition": "none"
   },
@@ -76,7 +76,7 @@
     "customerId": "cus_005",
     "item": "Running Shoes",
     "price": 39.99,
-    "purchaseDate": "2026-08-17",
+    "purchaseDate": "2026-09-17",
     "finalSale": false,
     "condition": "none"
   },
@@ -168,7 +168,7 @@
     "price": 599,
     "purchaseDate": "2026-09-07",
     "finalSale": false,
-    "condition": "none"
+    "condition": "damaged"
   },
   {
     "id": "ord_031",

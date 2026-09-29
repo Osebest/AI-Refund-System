@@ -236,5 +236,175 @@
     },
     "finalStatus": "denied",
     "customerMessage": "This request was not approved: Orders older than 30 days cannot be refunded."
+  },
+  {
+    "id": "req_1790512506740",
+    "timestamp": "2026-09-27T12:35:06.740Z",
+    "customerId": "cus_002",
+    "orderId": "ord_004",
+    "message": "idfjnndf",
+    "ruleFired": "The request will be escalated for review due to conflicting or suspicious claims.",
+    "ai": {
+      "category": "other",
+      "confidence": 0.72,
+      "suspicious": false,
+      "customer_message": "Thanks for reaching out about your Desk Lamp. We reviewed the request against the order details.",
+      "reasoning": "Deterministic mock classification used because OPENAI_API_KEY is not configured."
+    },
+    "finalStatus": "escalated",
+    "customerMessage": "This request has been escalated for review: The request will be escalated for review due to conflicting or suspicious claims."
+  },
+  {
+    "id": "req_1790512532548",
+    "timestamp": "2026-09-27T12:35:32.548Z",
+    "customerId": "cus_002",
+    "orderId": "ord_005",
+    "message": "Damaged goods",
+    "ruleFired": "The damage claim conflicts with the order condition.",
+    "ai": {
+      "category": "damaged",
+      "confidence": 0.72,
+      "suspicious": false,
+      "customer_message": "Thanks for reaching out about your Travel Backpack. We reviewed the request against the order details.",
+      "reasoning": "Deterministic mock classification used because OPENAI_API_KEY is not configured."
+    },
+    "finalStatus": "escalated",
+    "customerMessage": "This request has been escalated for review: The damage claim conflicts with the order condition."
+  },
+  {
+    "id": "req_1790512551369",
+    "timestamp": "2026-09-27T12:35:51.369Z",
+    "customerId": "cus_002",
+    "orderId": "ord_005",
+    "message": "wrong order",
+    "ruleFired": "The wrong-item claim conflicts with the order condition.",
+    "ai": {
+      "category": "wrong_item",
+      "confidence": 0.72,
+      "suspicious": false,
+      "customer_message": "Thanks for reaching out about your Travel Backpack. We reviewed the request against the order details.",
+      "reasoning": "Deterministic mock classification used because OPENAI_API_KEY is not configured."
+    },
+    "finalStatus": "escalated",
+    "customerMessage": "This request has been escalated for review: The wrong-item claim conflicts with the order condition."
+  },
+  {
+    "id": "req_1790513256498",
+    "timestamp": "2026-09-27T12:47:36.498Z",
+    "customerId": "cus_001",
+    "orderId": "ord_001",
+    "message": "damaged",
+    "ruleFired": "Final-sale items are not eligible for refunds.",
+    "ai": {
+      "category": "damaged",
+      "confidence": 0.72,
+      "suspicious": false,
+      "customer_message": "Thanks for reaching out about your Wireless Headphones. We reviewed the request against the order details.",
+      "reasoning": "Deterministic mock classification used because OPENAI_API_KEY is not configured."
+    },
+    "finalStatus": "denied",
+    "customerMessage": "This request was not approved: Final-sale items are not eligible for refunds."
+  },
+  {
+    "id": "req_1790513297241",
+    "timestamp": "2026-09-27T12:48:17.241Z",
+    "customerId": "cus_007",
+    "orderId": "ord_019",
+    "message": "damaged",
+    "ruleFired": "Orders older than 30 days cannot be refunded.",
+    "ai": {
+      "category": "damaged",
+      "confidence": 0.72,
+      "suspicious": false,
+      "customer_message": "Thanks for reaching out about your USB-C Dock. We reviewed the request against the order details.",
+      "reasoning": "Deterministic mock classification used because OPENAI_API_KEY is not configured."
+    },
+    "finalStatus": "denied",
+    "customerMessage": "This request was not approved: Orders older than 30 days cannot be refunded."
+  },
+  {
+    "id": "req_1790514246134",
+    "timestamp": "2026-09-27T13:04:06.134Z",
+    "customerId": "cus_002",
+    "orderId": "ord_004",
+    "message": "My item arrived damaged and I would like a refund.",
+    "ruleFired": "The damage claim conflicts with the order condition.",
+    "ai": {
+      "category": "damaged",
+      "confidence": 0.72,
+      "suspicious": false,
+      "customer_message": "Thanks for reaching out about your Desk Lamp. We reviewed the request against the order details.",
+      "reasoning": "Deterministic mock classification used because OPENAI_API_KEY is not configured."
+    },
+    "finalStatus": "escalated",
+    "customerMessage": "This request has been escalated for review: The damage claim conflicts with the order condition."
+  },
+  {
+    "id": "req_1790514264200",
+    "timestamp": "2026-09-27T13:04:24.200Z",
+    "customerId": "cus_009",
+    "orderId": "ord_027",
+    "message": "mkksndjns sdnjsd",
+    "ruleFired": "Orders older than 30 days cannot be refunded.",
+    "ai": {
+      "category": "other",
+      "confidence": 0.72,
+      "suspicious": false,
+      "customer_message": "Thanks for reaching out about your Monitor Stand. We reviewed the request against the order details.",
+      "reasoning": "Deterministic mock classification used because OPENAI_API_KEY is not configured."
+    },
+    "finalStatus": "denied",
+    "customerMessage": "This request was not approved: Orders older than 30 days cannot be refunded."
+  },
+  {
+    "id": "req_1790514515095",
+    "timestamp": "2026-09-27T13:08:35.095Z",
+    "customerId": "cus_002",
+    "orderId": "ord_004",
+    "message": "My item arrived damaged and I would like a refund.",
+    "ruleFired": "The damage claim conflicts with the order condition.",
+    "ai": {
+      "category": "other",
+      "confidence": 0,
+      "suspicious": true,
+      "customer_message": "Your request needs review by our support team.",
+      "reasoning": "AI output was unavailable or invalid."
+    },
+    "finalStatus": "escalated",
+    "customerMessage": "This request has been escalated for review: The damage claim conflicts with the order condition."
+  },
+  {
+    "id": "req_1790514538416",
+    "timestamp": "2026-09-27T13:08:58.416Z",
+    "customerId": "cus_002",
+    "orderId": "ord_005",
+    "message": "My item arrived damaged and I would like a refund.",
+    "ruleFired": "The damage claim conflicts with the order condition.",
+    "ai": {
+      "category": "other",
+      "confidence": 0,
+      "suspicious": true,
+      "customer_message": "Your request needs review by our support team.",
+      "reasoning": "AI output was unavailable or invalid."
+    },
+    "finalStatus": "escalated",
+    "customerMessage": "This request has been escalated for review: The damage claim conflicts with the order condition."
+  },
+  {
+    "id": "req_1790516224501",
+    "timestamp": "2026-09-27T13:37:04.501Z",
+    "customerId": "cus_002",
+    "orderId": "ord_005",
+    "message": "My item arrived damaged and I would like a refund.",
+    "ruleFired": "The damage claim conflicts with the order condition.",
+    "ai": {
+      "category": "other",
+      "confidence": 0,
+      "suspicious": true,
+      "customer_message": "Your request needs review by our support team.",
+      "reasoning": "AI output was unavailable or invalid."
+    },
+    "finalStatus": "escalated",
+    "customerMessage": "This request has been escalated for review: The damage claim conflicts with the order condition."
   }
 ]
