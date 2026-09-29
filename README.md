@@ -2,17 +2,19 @@
 
 A small full-stack refund support workflow. The backend owns policy decisions, AI classification, audit logging, and local JSON storage. The Next.js frontend provides a customer request form and an operations dashboard.
 
-## Run with Docker
+## Setup and run
+
+### Docker
 
 ```bash
 cp .env.example .env
-# Add OPENAI_API_KEY to .env when you want live classification
-docker-compose up --build
+# Edit .env and set OPENAI_API_KEY for live AI classification.
+docker compose up --build
 ```
 
-Open http://localhost:3000 for the customer form and http://localhost:3000/admin for the request dashboard. Without an API key, the backend uses a deterministic mock classifier, so the full workflow still runs. JSON files under `backend/data/` are mounted into the backend container and persist across restarts.
+Docker Desktop must be running. Open http://localhost:3000 for the customer form and http://localhost:3000/admin for the request dashboard. Stop the stack with `docker compose down`. JSON files under `backend/data/` are mounted into the backend container and persist across restarts.
 
-## Local development
+### Local development
 
 ```bash
 npm install
@@ -20,7 +22,20 @@ npm run install:all
 npm run dev
 ```
 
-The backend runs on port 4000 and the frontend on port 3000. `NEXT_PUBLIC_BACKEND_URL` controls the browser-facing API URL.
+The backend runs on port 4000 and the frontend on port 3000. Open http://localhost:3000 and http://localhost:3000/admin. To stop both dev servers, press `Ctrl+C` in the terminal running `npm run dev`.
+
+## Environment variables
+
+Copy `.env.example` to `.env` at the repository root. For local development, the backend loads `backend/.env` if that file exists; otherwise it falls back to the repository-root `.env`. Environment variables already set in the shell take precedence. Restart the backend after changing environment values.
+
+- `OPENAI_API_KEY`: required for live OpenAI requests. Keep this secret in `.env` or the runtime environment; never put it in frontend code or commit `.env`.
+- `OPENAI_BASE_URL`: optional OpenAI-compatible API endpoint. Leave empty to use OpenAI's default endpoint.
+- `AI_MODEL`: model name; defaults to `gpt-4o-mini`.
+- `BACKEND_PORT`: backend host port; defaults to `4000`.
+- `FRONTEND_PORT`: frontend host port; defaults to `3000` in Docker.
+- `NEXT_PUBLIC_BACKEND_URL`: URL the browser uses to reach the backend; defaults to `http://localhost:4000`. For Docker on the host, keep this set to a browser-reachable host URL, not the compose service name.
+
+Without `OPENAI_API_KEY`, the backend logs a warning and uses a deterministic mock classifier so the application remains usable. `AI_PROVIDER` is included in `.env.example` for clarity, but the current implementation uses the OpenAI-compatible client and does not switch providers based on that setting.
 
 ## Architecture
 
@@ -32,7 +47,7 @@ Customer browser -> Next.js UI -> Express API -> JSON data store
                                       ` -> requests.json audit log
 ```
 
-`POST /api/refunds` accepts `{ customerId, orderId, message }`. It loads the matching records, evaluates `policy/policy.md` through pure rules, asks the backend-only AI layer to classify and draft language, applies escalation for AI-detected suspicion only when policy approved, then logs the complete decision. `GET /api/refunds` feeds the admin table. Health and context helpers are available at `/api/health`, `/api/customers/:id`, and `/api/orders/:id`.
+`POST /api/refunds` accepts `{ customerId, orderId, message }`. It loads the matching records, evaluates `policy/policy.md` through pure rules, asks the backend-only AI layer to classify and draft language, applies escalation for AI-detected suspicion only when policy approved, then logs the complete decision. `GET /api/refunds` feeds the admin table. The frontend loads its dropdown choices from `GET /api/customers` and `GET /api/orders`; single-record helpers are available at `/api/customers/:id` and `/api/orders/:id`, and `/api/health` reports backend health.
 
 ## AI and guardrails
 

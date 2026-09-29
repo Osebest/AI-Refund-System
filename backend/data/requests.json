@@ -406,5 +406,39 @@
     },
     "finalStatus": "escalated",
     "customerMessage": "This request has been escalated for review: The damage claim conflicts with the order condition."
+  },
+  {
+    "id": "req_1790689672346",
+    "timestamp": "2026-09-29T13:47:52.346Z",
+    "customerId": "cus_004",
+    "orderId": "ord_010",
+    "message": "Damaged goods",
+    "ruleFired": "The damage claim conflicts with the order condition.",
+    "ai": {
+      "category": "other",
+      "confidence": 0,
+      "suspicious": true,
+      "customer_message": "Your request needs review by our support team.",
+      "reasoning": "AI output was unavailable or invalid."
+    },
+    "finalStatus": "escalated",
+    "customerMessage": "This request has been escalated for review: The damage claim conflicts with the order condition."
+  },
+  {
+    "id": "req_1790689898068",
+    "timestamp": "2026-09-29T13:51:38.068Z",
+    "customerId": "cus_011",
+    "orderId": "ord_032",
+    "message": "I need a refund for a wrong item",
+    "ruleFired": "Orders older than 30 days cannot be refunded.",
+    "ai": {
+      "category": "other",
+      "confidence": 0,
+      "suspicious": true,
+      "customer_message": "Your request needs review by our support team.",
+      "reasoning": "AI output was unavailable or invalid."
+    },
+    "finalStatus": "denied",
+    "customerMessage": "This request was not approved: Orders older than 30 days cannot be refunded."
   }
 ]
